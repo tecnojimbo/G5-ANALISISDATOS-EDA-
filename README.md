@@ -195,3 +195,16 @@ Grupo 5 - Tratamiento de Datos
 ├── rfm_segmentation_report.csv
 ├── imagenes/
 └── README.md
+
+# Preguntas de Retroalimentación - G5
+# 1.	En su análisis ustedes revisan características que pueden ser buenas para predecir si un cliente se va a perder, si desarrollan un predictor como lo pueden usar para explicar el por qué se pierden esos clientes?
+
+El modelo no solo serviría para predecir qué clientes se van, sino para identificar las causas del abandono.
+
+A partir del EDA, variables como recencia, frecuencia y gasto permiten ver qué factores influyen más. Por ejemplo, si el modelo muestra que el tiempo desde la última compra es determinante, se puede concluir que la pérdida está relacionada con falta de actividad.
+
+Además, con herramientas como SHAP se pueden explicar casos individuales, mostrando qué variables influyen en cada cliente.
+
+También es posible identificar puntos críticos, como un número de días sin compra a partir del cual aumenta el riesgo.
+
+El modelo permite entender qué factores están causando la pérdida de clientes y facilita tomar acciones de retención basadas en esos hallazgos.
